@@ -1,0 +1,24 @@
+{
+  "name": "node-rest-shop",
+  "version": "1.0.0",
+  "description": "A noode.js RESTful tutorial project for a shop api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "restful"
+  ],
+  "author": "Basanta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
