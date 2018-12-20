@@ -16,6 +16,12 @@ router.post('/', (req, res, next) => {
         name: req.body.name,
         price: req.body.price
     });
+    product
+    .save()
+    .then( result => {
+        console.log(result);
+    })
+    .catch(err => console.log(err));
     res.status(201).json({
         message : 'Handling POST requests to /products',
         createdProduct : product
